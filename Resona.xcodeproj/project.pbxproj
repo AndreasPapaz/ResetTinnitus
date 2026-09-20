@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D7692DC66C864B3F7D1466 /* CyclePhaseKindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D858E26EB1C49A285DFC42 /* CyclePhaseKindTests.swift */; };
+		044B0F0089710E71D5C4BA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC9D3FD22D17E0077E058B /* Assets.xcassets */; };
+		0A7BF43E354DC8261A4A867C /* FrequencyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2577B4E76DEC3411756EC229 /* FrequencyColor.swift */; };
+		0E6BED55CF7F18002474B6B5 /* AmbientContentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C02F4359EC1741E8E7EECAC /* AmbientContentCard.swift */; };
+		1189B9D6A038054C754D9AA1 /* CRAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20616E9464B65D3B4F47BE /* CRAudioEngine.swift */; };
+		149521B57CAB5D1738FD2B99 /* CRTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EB6ACA66AD8214410AD0E /* CRTiming.swift */; };
+		17A39FF2593B59E5B154F1D4 /* CRSessionScheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36E7484D70B36DEBB43248 /* CRSessionScheduleTests.swift */; };
+		1AD6ACF502527C73A8BF4C5B /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836EDF6216382F10041FD451 /* AppRoute.swift */; };
+		27D415E9D9EC1AEB0C239A43 /* PitchRangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FFE4B7888D7DE734F8C2E /* PitchRangeTests.swift */; };
+		29F6B64A6C1ED5D5F7E2D853 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCDB3BEF32440DC21457720 /* ContentView.swift */; };
+		31E3537E50C5EA668937A189 /* PitchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17265A85ED06FF772F8A9F0F /* PitchRange.swift */; };
+		36292C958AE954677396C3C3 /* CRCyclePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F60B3529603FE1D113607 /* CRCyclePattern.swift */; };
+		3C0C8C6093A78C0542022699 /* AppRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF09A8F06043ECB34B7EAC /* AppRouteTests.swift */; };
+		3E44AF770777794CCDBFA30A /* CyclePhaseKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC4B800EB26432EAEEE75A7 /* CyclePhaseKind.swift */; };
+		4B807E18351A8F50A1B7B25C /* CRAudioEngineIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10667451376B5602450F269 /* CRAudioEngineIntegrationTests.swift */; };
+		4E72E6167E619D1510F5E5BE /* PillButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD6E2135DB48CDDD6709129 /* PillButtonStyle.swift */; };
+		5A467C1162711B00B5934713 /* PitchMatchTonePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5AE3B5DD8EFAA8C2B2FA4 /* PitchMatchTonePlayer.swift */; };
+		612DBCCE9F381F546AE37D3B /* AmbientShaderParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1854B8BA189FA53213775F /* AmbientShaderParameters.swift */; };
+		67ACFB4F19B7ED595BD11F6C /* PitchMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5436AB904A9156ABAC0A98FC /* PitchMatchView.swift */; };
+		69277C8BCDF8275E798528B1 /* CRSessionSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E371A6EC755105F2B44FCB /* CRSessionSchedule.swift */; };
+		6F7E63741BECA878C014480B /* ToneSetDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9311D2B8151EF35A25680C9C /* ToneSetDerivation.swift */; };
+		7B4031CD8C85D9B21A9884DD /* CRTimingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84295A346B1E3CB2219917D /* CRTimingTests.swift */; };
+		807A1AE4087D25AC2833ED42 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553A168A98331FE4C14E78A /* DisclaimerView.swift */; };
+		848105CAD2CEDFDDE6D538D0 /* CRAudioEngineLifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5D9A45B797F56BA1395348 /* CRAudioEngineLifecycleTests.swift */; };
+		88113D8CA49FACEBF5C7A87C /* AmbientState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2054645CAE4DA90AEFEDB40 /* AmbientState.swift */; };
+		94DD62B4AEB00FA58399FA25 /* FrequencyStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A507784D7E92DD2A283BB85 /* FrequencyStoreTests.swift */; };
+		A13C029F38F2B2F20171CFA0 /* MainSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB19EC9411340EE79363491 /* MainSessionView.swift */; };
+		A1F0967937A42235268DDCC1 /* FrequencyColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40E5A6DE11D07CA3230750 /* FrequencyColorTests.swift */; };
+		A30993F0680D4E7C2CDA3391 /* FrequencyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C6C60DFB4F6C4807881B3B /* FrequencyStore.swift */; };
+		A75F062B1004AB745A414B99 /* AmbientShader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 9742B2BB7C5307E607EF780C /* AmbientShader.metal */; };
+		B491B337289B933FD048ABA7 /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA97FF20AE4192E0C9D298BB /* RGBColor.swift */; };
+		BCA9DFB3411E2A48B8E66A6B /* AmbientCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4997F94DB72A10D42495E6F /* AmbientCanvas.swift */; };
+		BDC8F3FF38B96D3E52CF8662 /* ResonaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9A199086B657FC7B38036C /* ResonaUITests.swift */; };
+		C1417F1B900296159EAB4A6F /* AmbientShaderParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E217467401E4862CDA543 /* AmbientShaderParametersTests.swift */; };
+		C48A5BD4FD186862976848DC /* CRCyclePatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3DAA4AF3760F1D9BB5880 /* CRCyclePatternTests.swift */; };
+		D9442E4C15D96D76657A144E /* SeededRNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0C679D6AED8C74E996E3AE /* SeededRNG.swift */; };
+		E874B55090A06B78DD4AABED /* ResonaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93A16246A7C102FDE592E48 /* ResonaApp.swift */; };
+		E91798A8096286BCB09EDAF1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 47E8B1D4E35F77E9C9159061 /* PrivacyInfo.xcprivacy */; };
+		F299332DD6E7847A99D35A7C /* ToneSetDerivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA0BA4B16244EE29E5D7D8 /* ToneSetDerivationTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E2A836658B6E3FDFBCC8590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6E69D2EE2A33D3D6A8F386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571768BCA453388232CD89C4;
+			remoteInfo = Resona;
+		};
+		B5BE5FD26EDE333D12C56A22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6E69D2EE2A33D3D6A8F386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571768BCA453388232CD89C4;
+			remoteInfo = Resona;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111FFE4B7888D7DE734F8C2E /* PitchRangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchRangeTests.swift; sourceTree = "<group>"; };
+		12D858E26EB1C49A285DFC42 /* CyclePhaseKindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePhaseKindTests.swift; sourceTree = "<group>"; };
+		149E217467401E4862CDA543 /* AmbientShaderParametersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientShaderParametersTests.swift; sourceTree = "<group>"; };
+		14AA0BA4B16244EE29E5D7D8 /* ToneSetDerivationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneSetDerivationTests.swift; sourceTree = "<group>"; };
+		17265A85ED06FF772F8A9F0F /* PitchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchRange.swift; sourceTree = "<group>"; };
+		174B1E44E28B6516D2F0A513 /* ResonaUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResonaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C3DAA4AF3760F1D9BB5880 /* CRCyclePatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCyclePatternTests.swift; sourceTree = "<group>"; };
+		1A507784D7E92DD2A283BB85 /* FrequencyStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyStoreTests.swift; sourceTree = "<group>"; };
+		1E36E7484D70B36DEBB43248 /* CRSessionScheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRSessionScheduleTests.swift; sourceTree = "<group>"; };
+		2577B4E76DEC3411756EC229 /* FrequencyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyColor.swift; sourceTree = "<group>"; };
+		2C02F4359EC1741E8E7EECAC /* AmbientContentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientContentCard.swift; sourceTree = "<group>"; };
+		47E8B1D4E35F77E9C9159061 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		4ABC9D3FD22D17E0077E058B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F20616E9464B65D3B4F47BE /* CRAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAudioEngine.swift; sourceTree = "<group>"; };
+		5436AB904A9156ABAC0A98FC /* PitchMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchMatchView.swift; sourceTree = "<group>"; };
+		59F5AE3B5DD8EFAA8C2B2FA4 /* PitchMatchTonePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchMatchTonePlayer.swift; sourceTree = "<group>"; };
+		6A9A199086B657FC7B38036C /* ResonaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResonaUITests.swift; sourceTree = "<group>"; };
+		71E371A6EC755105F2B44FCB /* CRSessionSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRSessionSchedule.swift; sourceTree = "<group>"; };
+		836EDF6216382F10041FD451 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRoute.swift; sourceTree = "<group>"; };
+		9311D2B8151EF35A25680C9C /* ToneSetDerivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneSetDerivation.swift; sourceTree = "<group>"; };
+		9742B2BB7C5307E607EF780C /* AmbientShader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AmbientShader.metal; sourceTree = "<group>"; };
+		9B0C679D6AED8C74E996E3AE /* SeededRNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeededRNG.swift; sourceTree = "<group>"; };
+		9D40E5A6DE11D07CA3230750 /* FrequencyColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyColorTests.swift; sourceTree = "<group>"; };
+		9DB19EC9411340EE79363491 /* MainSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSessionView.swift; sourceTree = "<group>"; };
+		A10667451376B5602450F269 /* CRAudioEngineIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAudioEngineIntegrationTests.swift; sourceTree = "<group>"; };
+		A26F60B3529603FE1D113607 /* CRCyclePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRCyclePattern.swift; sourceTree = "<group>"; };
+		A6C6C60DFB4F6C4807881B3B /* FrequencyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyStore.swift; sourceTree = "<group>"; };
+		AD5D9A45B797F56BA1395348 /* CRAudioEngineLifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAudioEngineLifecycleTests.swift; sourceTree = "<group>"; };
+		BD1EB6ACA66AD8214410AD0E /* CRTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTiming.swift; sourceTree = "<group>"; };
+		BDD6E2135DB48CDDD6709129 /* PillButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillButtonStyle.swift; sourceTree = "<group>"; };
+		CC1854B8BA189FA53213775F /* AmbientShaderParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientShaderParameters.swift; sourceTree = "<group>"; };
+		D84295A346B1E3CB2219917D /* CRTimingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTimingTests.swift; sourceTree = "<group>"; };
+		D93A16246A7C102FDE592E48 /* ResonaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResonaApp.swift; sourceTree = "<group>"; };
+		DA5B87D8DD99BAF840B2CF09 /* Resona.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Resona.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA97FF20AE4192E0C9D298BB /* RGBColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		DFCF09A8F06043ECB34B7EAC /* AppRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouteTests.swift; sourceTree = "<group>"; };
+		E553A168A98331FE4C14E78A /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		EBA0F935734EB5E47A5636F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EFCDB3BEF32440DC21457720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2014119143DA2E34305CFDB /* ResonaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ResonaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2054645CAE4DA90AEFEDB40 /* AmbientState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientState.swift; sourceTree = "<group>"; };
+		F4997F94DB72A10D42495E6F /* AmbientCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientCanvas.swift; sourceTree = "<group>"; };
+		FCC4B800EB26432EAEEE75A7 /* CyclePhaseKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclePhaseKind.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		23B81E57380B9B34A72E3E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5B87D8DD99BAF840B2CF09 /* Resona.app */,
+				F2014119143DA2E34305CFDB /* ResonaTests.xctest */,
+				174B1E44E28B6516D2F0A513 /* ResonaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C16152028E49E8F3F41A4D2 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				4F20616E9464B65D3B4F47BE /* CRAudioEngine.swift */,
+				A26F60B3529603FE1D113607 /* CRCyclePattern.swift */,
+				71E371A6EC755105F2B44FCB /* CRSessionSchedule.swift */,
+				BD1EB6ACA66AD8214410AD0E /* CRTiming.swift */,
+				59F5AE3B5DD8EFAA8C2B2FA4 /* PitchMatchTonePlayer.swift */,
+				9311D2B8151EF35A25680C9C /* ToneSetDerivation.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		369555F71C3131FB21209B46 = {
+			isa = PBXGroup;
+			children = (
+				68B2C251100D9947B50D5DFF /* Resona */,
+				9DD6D10035E41D86EB9E94C4 /* ResonaTests */,
+				CB1F681FCD59AB97644006AE /* ResonaUITests */,
+				23B81E57380B9B34A72E3E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383808F022F4F291876DA902 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				A6C6C60DFB4F6C4807881B3B /* FrequencyStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		68B2C251100D9947B50D5DFF /* Resona */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC9D3FD22D17E0077E058B /* Assets.xcassets */,
+				EBA0F935734EB5E47A5636F1 /* Info.plist */,
+				47E8B1D4E35F77E9C9159061 /* PrivacyInfo.xcprivacy */,
+				D93A16246A7C102FDE592E48 /* ResonaApp.swift */,
+				2C16152028E49E8F3F41A4D2 /* Audio */,
+				383808F022F4F291876DA902 /* Persistence */,
+				73BC924C360D41B7BF1C9093 /* Views */,
+			);
+			name = Resona;
+			path = Sources/Resona;
+			sourceTree = "<group>";
+		};
+		73BC924C360D41B7BF1C9093 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				836EDF6216382F10041FD451 /* AppRoute.swift */,
+				EFCDB3BEF32440DC21457720 /* ContentView.swift */,
+				E553A168A98331FE4C14E78A /* DisclaimerView.swift */,
+				9DB19EC9411340EE79363491 /* MainSessionView.swift */,
+				5436AB904A9156ABAC0A98FC /* PitchMatchView.swift */,
+				17265A85ED06FF772F8A9F0F /* PitchRange.swift */,
+				D6BDBDDBE418545E0093552E /* Ambient */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DD6D10035E41D86EB9E94C4 /* ResonaTests */ = {
+			isa = PBXGroup;
+			children = (
+				149E217467401E4862CDA543 /* AmbientShaderParametersTests.swift */,
+				DFCF09A8F06043ECB34B7EAC /* AppRouteTests.swift */,
+				A10667451376B5602450F269 /* CRAudioEngineIntegrationTests.swift */,
+				AD5D9A45B797F56BA1395348 /* CRAudioEngineLifecycleTests.swift */,
+				17C3DAA4AF3760F1D9BB5880 /* CRCyclePatternTests.swift */,
+				1E36E7484D70B36DEBB43248 /* CRSessionScheduleTests.swift */,
+				D84295A346B1E3CB2219917D /* CRTimingTests.swift */,
+				12D858E26EB1C49A285DFC42 /* CyclePhaseKindTests.swift */,
+				9D40E5A6DE11D07CA3230750 /* FrequencyColorTests.swift */,
+				1A507784D7E92DD2A283BB85 /* FrequencyStoreTests.swift */,
+				111FFE4B7888D7DE734F8C2E /* PitchRangeTests.swift */,
+				9B0C679D6AED8C74E996E3AE /* SeededRNG.swift */,
+				14AA0BA4B16244EE29E5D7D8 /* ToneSetDerivationTests.swift */,
+			);
+			name = ResonaTests;
+			path = Tests/ResonaTests;
+			sourceTree = "<group>";
+		};
+		CB1F681FCD59AB97644006AE /* ResonaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A9A199086B657FC7B38036C /* ResonaUITests.swift */,
+			);
+			name = ResonaUITests;
+			path = Tests/ResonaUITests;
+			sourceTree = "<group>";
+		};
+		D6BDBDDBE418545E0093552E /* Ambient */ = {
+			isa = PBXGroup;
+			children = (
+				F4997F94DB72A10D42495E6F /* AmbientCanvas.swift */,
+				2C02F4359EC1741E8E7EECAC /* AmbientContentCard.swift */,
+				9742B2BB7C5307E607EF780C /* AmbientShader.metal */,
+				CC1854B8BA189FA53213775F /* AmbientShaderParameters.swift */,
+				F2054645CAE4DA90AEFEDB40 /* AmbientState.swift */,
+				FCC4B800EB26432EAEEE75A7 /* CyclePhaseKind.swift */,
+				2577B4E76DEC3411756EC229 /* FrequencyColor.swift */,
+				BDD6E2135DB48CDDD6709129 /* PillButtonStyle.swift */,
+				DA97FF20AE4192E0C9D298BB /* RGBColor.swift */,
+			);
+			path = Ambient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00D724F0B666DA77FC96EF61 /* ResonaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209EC6001234AF3D53314643 /* Build configuration list for PBXNativeTarget "ResonaUITests" */;
+			buildPhases = (
+				C4123D32052A5ACB7AACBA41 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				458EB0818F2084ED02AB4A9B /* PBXTargetDependency */,
+			);
+			name = ResonaUITests;
+			packageProductDependencies = (
+			);
+			productName = ResonaUITests;
+			productReference = 174B1E44E28B6516D2F0A513 /* ResonaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		17AB00266C04D8FEFF562617 /* ResonaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3C990DC9A05E20389AB3DD /* Build configuration list for PBXNativeTarget "ResonaTests" */;
+			buildPhases = (
+				A4D81ADEB787546A5C470909 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E414CB9062507B35A66B276 /* PBXTargetDependency */,
+			);
+			name = ResonaTests;
+			packageProductDependencies = (
+			);
+			productName = ResonaTests;
+			productReference = F2014119143DA2E34305CFDB /* ResonaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		571768BCA453388232CD89C4 /* Resona */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C87995F36355DD2F102D00E /* Build configuration list for PBXNativeTarget "Resona" */;
+			buildPhases = (
+				C5B30D6978FE1B73ED93126E /* Sources */,
+				9293EE180C4E9A60C4A720CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Resona;
+			packageProductDependencies = (
+			);
+			productName = Resona;
+			productReference = DA5B87D8DD99BAF840B2CF09 /* Resona.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6E69D2EE2A33D3D6A8F386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00D724F0B666DA77FC96EF61 = {
+						DevelopmentTeam = X4W8MM3KJG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 571768BCA453388232CD89C4;
+					};
+					17AB00266C04D8FEFF562617 = {
+						DevelopmentTeam = X4W8MM3KJG;
+						ProvisioningStyle = Automatic;
+					};
+					571768BCA453388232CD89C4 = {
+						DevelopmentTeam = X4W8MM3KJG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D676775F68F176BF3208374F /* Build configuration list for PBXProject "Resona" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 369555F71C3131FB21209B46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23B81E57380B9B34A72E3E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571768BCA453388232CD89C4 /* Resona */,
+				17AB00266C04D8FEFF562617 /* ResonaTests */,
+				00D724F0B666DA77FC96EF61 /* ResonaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9293EE180C4E9A60C4A720CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B0F0089710E71D5C4BA1A /* Assets.xcassets in Resources */,
+				E91798A8096286BCB09EDAF1 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D81ADEB787546A5C470909 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1417F1B900296159EAB4A6F /* AmbientShaderParametersTests.swift in Sources */,
+				3C0C8C6093A78C0542022699 /* AppRouteTests.swift in Sources */,
+				4B807E18351A8F50A1B7B25C /* CRAudioEngineIntegrationTests.swift in Sources */,
+				848105CAD2CEDFDDE6D538D0 /* CRAudioEngineLifecycleTests.swift in Sources */,
+				C48A5BD4FD186862976848DC /* CRCyclePatternTests.swift in Sources */,
+				17A39FF2593B59E5B154F1D4 /* CRSessionScheduleTests.swift in Sources */,
+				7B4031CD8C85D9B21A9884DD /* CRTimingTests.swift in Sources */,
+				01D7692DC66C864B3F7D1466 /* CyclePhaseKindTests.swift in Sources */,
+				A1F0967937A42235268DDCC1 /* FrequencyColorTests.swift in Sources */,
+				94DD62B4AEB00FA58399FA25 /* FrequencyStoreTests.swift in Sources */,
+				27D415E9D9EC1AEB0C239A43 /* PitchRangeTests.swift in Sources */,
+				D9442E4C15D96D76657A144E /* SeededRNG.swift in Sources */,
+				F299332DD6E7847A99D35A7C /* ToneSetDerivationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4123D32052A5ACB7AACBA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC8F3FF38B96D3E52CF8662 /* ResonaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B30D6978FE1B73ED93126E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA9DFB3411E2A48B8E66A6B /* AmbientCanvas.swift in Sources */,
+				0E6BED55CF7F18002474B6B5 /* AmbientContentCard.swift in Sources */,
+				A75F062B1004AB745A414B99 /* AmbientShader.metal in Sources */,
+				612DBCCE9F381F546AE37D3B /* AmbientShaderParameters.swift in Sources */,
+				88113D8CA49FACEBF5C7A87C /* AmbientState.swift in Sources */,
+				1AD6ACF502527C73A8BF4C5B /* AppRoute.swift in Sources */,
+				1189B9D6A038054C754D9AA1 /* CRAudioEngine.swift in Sources */,
+				36292C958AE954677396C3C3 /* CRCyclePattern.swift in Sources */,
+				69277C8BCDF8275E798528B1 /* CRSessionSchedule.swift in Sources */,
+				149521B57CAB5D1738FD2B99 /* CRTiming.swift in Sources */,
+				29F6B64A6C1ED5D5F7E2D853 /* ContentView.swift in Sources */,
+				3E44AF770777794CCDBFA30A /* CyclePhaseKind.swift in Sources */,
+				807A1AE4087D25AC2833ED42 /* DisclaimerView.swift in Sources */,
+				0A7BF43E354DC8261A4A867C /* FrequencyColor.swift in Sources */,
+				A30993F0680D4E7C2CDA3391 /* FrequencyStore.swift in Sources */,
+				A13C029F38F2B2F20171CFA0 /* MainSessionView.swift in Sources */,
+				4E72E6167E619D1510F5E5BE /* PillButtonStyle.swift in Sources */,
+				5A467C1162711B00B5934713 /* PitchMatchTonePlayer.swift in Sources */,
+				67ACFB4F19B7ED595BD11F6C /* PitchMatchView.swift in Sources */,
+				31E3537E50C5EA668937A189 /* PitchRange.swift in Sources */,
+				B491B337289B933FD048ABA7 /* RGBColor.swift in Sources */,
+				E874B55090A06B78DD4AABED /* ResonaApp.swift in Sources */,
+				6F7E63741BECA878C014480B /* ToneSetDerivation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		458EB0818F2084ED02AB4A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571768BCA453388232CD89C4 /* Resona */;
+			targetProxy = B5BE5FD26EDE333D12C56A22 /* PBXContainerItemProxy */;
+		};
+		9E414CB9062507B35A66B276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571768BCA453388232CD89C4 /* Resona */;
+			targetProxy = 2E2A836658B6E3FDFBCC8590 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54D38695CFAB99ACEC357104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.resona.ResonaUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Resona;
+			};
+			name = Debug;
+		};
+		64ECAC011425FA0D1A9CC30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Resona/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resona.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		677F7EA27B0220958B15013C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X4W8MM3KJG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		6C2D7B427E647E56C5DCD427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X4W8MM3KJG;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		6F4C1B4A619E254D5B68580B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.resona.ResonaUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Resona;
+			};
+			name = Release;
+		};
+		AEABC90DB9F693C1EB352A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.resona.ResonaTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resona.app/Resona";
+			};
+			name = Debug;
+		};
+		BB6E28D6F76C8A69EEC0B032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Resona/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resona.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6388AEA11D88044362AE66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.resona.ResonaTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resona.app/Resona";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209EC6001234AF3D53314643 /* Build configuration list for PBXNativeTarget "ResonaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D38695CFAB99ACEC357104 /* Debug */,
+				6F4C1B4A619E254D5B68580B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8C87995F36355DD2F102D00E /* Build configuration list for PBXNativeTarget "Resona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6E28D6F76C8A69EEC0B032 /* Debug */,
+				64ECAC011425FA0D1A9CC30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE3C990DC9A05E20389AB3DD /* Build configuration list for PBXNativeTarget "ResonaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEABC90DB9F693C1EB352A23 /* Debug */,
+				F6388AEA11D88044362AE66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D676775F68F176BF3208374F /* Build configuration list for PBXProject "Resona" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C2D7B427E647E56C5DCD427 /* Debug */,
+				677F7EA27B0220958B15013C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6E69D2EE2A33D3D6A8F386 /* Project object */;
+}

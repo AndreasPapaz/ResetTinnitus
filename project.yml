@@ -1,22 +1,24 @@
-name: ResetTinnitus
+name: Resona
 options:
-  bundleIdPrefix: com.resettinnitus
+  bundleIdPrefix: com.resona
   deploymentTarget:
     iOS: "17.0"
 settings:
   base:
     SWIFT_VERSION: "6.0"
-    DEVELOPMENT_TEAM: ""
+    DEVELOPMENT_TEAM: X4W8MM3KJG
     CODE_SIGN_STYLE: Automatic
 targets:
-  ResetTinnitus:
+  Resona:
     type: application
     platform: iOS
     sources:
-      - path: Sources/ResetTinnitus
+      - path: Sources/Resona
     info:
-      path: Sources/ResetTinnitus/Info.plist
+      path: Sources/Resona/Info.plist
       properties:
+        CFBundleDisplayName: Resona
+        ITSAppUsesNonExemptEncryption: false
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
@@ -24,32 +26,35 @@ targets:
           - audio
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.resettinnitus.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.resona.app
+        TARGETED_DEVICE_FAMILY: "1"
         GENERATE_INFOPLIST_FILE: NO
         MARKETING_VERSION: "1.0"
         CURRENT_PROJECT_VERSION: "1"
     scheme:
       testTargets:
-        - ResetTinnitusTests
-        - ResetTinnitusUITests
+        - ResonaTests
+        - ResonaUITests
       commandLineArguments: []
-  ResetTinnitusTests:
+  ResonaTests:
     type: bundle.unit-test
     platform: iOS
     sources:
-      - path: Tests/ResetTinnitusTests
+      - path: Tests/ResonaTests
     dependencies:
-      - target: ResetTinnitus
+      - target: Resona
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
-  ResetTinnitusUITests:
+        TARGETED_DEVICE_FAMILY: "1"
+  ResonaUITests:
     type: bundle.ui-testing
     platform: iOS
     sources:
-      - path: Tests/ResetTinnitusUITests
+      - path: Tests/ResonaUITests
     dependencies:
-      - target: ResetTinnitus
+      - target: Resona
     settings:
       base:
         GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
